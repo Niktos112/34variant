@@ -1,4 +1,5 @@
 def decimal_translator(number, base):
+    letters = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ'
     for i in str(number):
         if int(i) >= base:
             return None
