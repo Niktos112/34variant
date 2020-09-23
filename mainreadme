@@ -1,0 +1,1 @@
+convert10tobase(int num, int base) - return num converted to base
