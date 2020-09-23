@@ -1,4 +1,4 @@
-def decimal_translator(number, base):
+def decimal_translator_11_35(number, base):
     letters = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ'
     for i in str(number):
         if i.isalpha():
