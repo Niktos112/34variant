@@ -7,6 +7,8 @@ def decimal_translator(number, base):
             return None
     nums = []
     for i in str(number):
+        if i.isalpha():
+            i = letters.find(i)
         nums.append(int(i))
     nums.reverse()
     answer = 0
